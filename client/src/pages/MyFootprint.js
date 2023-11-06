@@ -66,7 +66,9 @@ const MyFootprint = () => {
                       kg CO2
                     </p>
                   </div>
-                  
+                  {/* <div className="graph">
+                    <Graph graphData={{ homeData, travelData }} />
+                  </div> */}
                 </div>
               ) : (
                 <div>
@@ -83,9 +85,9 @@ const MyFootprint = () => {
               )}
             </div>
           </section>
-          <section>
+          {/* <section>
             {homeData.length || travelData.length ? <Pledges /> : ''}
-          </section>
+          </section> */}
         </div>
       ) : (
         <div className="not-logged-in">

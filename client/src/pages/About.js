@@ -3,38 +3,7 @@ import './assets/css/about.css';
 import { Icon } from '@iconify/react';
 
 const About = () => {
-  const team = [
-    {
-      name: 'Nina Siegel',
-      src: require('./assets/images/Nina.jfif'),
-      email: 'siegel.nina.m@gmail.com',
-      href: 'https://github.com/nmsiegel1',
-    },
-    {
-      name: 'Gilina McBride',
-      src: require('./assets/images/Gilina.JPG'),
-      email: 'gilinamcbride@gmail.com',
-      href: 'https://github.com/gilinamcbride',
-    },
-    {
-      name: 'Daniel Conlon',
-      src: require('./assets/images/Daniel.jfif'),
-      email: 'danielcconlon@gmail.com',
-      href: 'https://github.com/DanielCConlon',
-    },
-    {
-      name: 'Mtende Roll',
-      src: require('./assets/images/Mtende.jfif'),
-      email: 'rollmtende@gmail.com',
-      href: 'https://github.com/MtendeRoll',
-    },
-    {
-      name: 'Amanda Klenk',
-      src: require('./assets/images/Amanda.jpg'),
-      email: 'amandamklenk@gmail.com',
-      href: 'https://github.com/amklenk',
-    },
-  ];
+ 
 
   return (
     <section className="team-main">
@@ -44,37 +13,21 @@ const About = () => {
       <div className="about-info">
         <div className="about-p">
           <div className="about-h3">
-            Carbon Footsteppers believe that it is important for all of us to
-            reduce our carbon footprints.
+          About Our Carbon-Footprint MERN Project
           </div>
           <p>
-            We are a team of full-stack developers who were inspired to ask “how
-            can we lower our carbon emissions?” We looked for carbon footprint
-            calculators and intentional steps we could take to reduce our own
-            footprints. We couldn’t find a tool that combined self-awareness and
-            action in one place. We knew what an effective carbon footprint
-            calculator needed to do, so we made it. The entire calculator and
-            pledge workflow, each piece of the calculator, each graph, each
-            pledge was designed and crafted by our team.
+
+          Welcome to our Carbon-Footprint MERN Project, where we are dedicated to making a positive impact on the environment and raising awareness about carbon emissions. Our project is built on the MongoDB, Express, React, and Node.js (MERN) stack, showcasing our commitment to sustainable technology.
           </p>
           <div className="about-h3">
-            We believe that individual positive change can go hand-in-hand with
-            education.
+            Mission and Purpose:
           </div>
           <p>
-            We know it can be tough to learn about your personal impact on
-            climate change. With a little help you can take the first steps to
-            reduce and offset your carbon emissions, and feel proud of your
-            completed pledges.
-          </p>
-          <p>
-            Contact any member of the team if you have questions about Carbon
-            Footsteps and check out our individual GitHub repositories to see
-            more of our work.
+          At the heart of our project is a mission to empower individuals and organizations to measure, reduce, and offset their carbon footprint. We believe that understanding one's environmental impact is the first step towards making meaningful changes. Our platform provides the tools and information necessary to take action against climate change.
           </p>
         </div>
       </div>
-      <div className="team-info">
+      {/* <div className="team-info">
         {team.map((teammate) => (
           <div className="team-container" key={teammate.name}>
             <h2>{teammate.name}</h2>
@@ -106,7 +59,7 @@ const About = () => {
             <br />
           </div>
         ))}
-      </div>
+      </div> */}
     </section>
   );
 };

@@ -16,13 +16,23 @@ function Footer() {
             <h3 className="footer-info-menu">
               Carbon <span>Footsteps</span>
             </h3>
-            <ul>
+            {/* <ul>
               <li>
                 <a href="/about">About</a>
               </li>
-              
-              
-            </ul>
+              <li>
+                <a
+                  href="https://github.com/nmsiegel1/carbon-footprint"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Github Repository
+                </a>
+              </li>
+              <li>
+                <a href="/donation">Fight Climate Change</a>
+              </li>
+            </ul> */}
           </div>
         </section>
         <section className=" footer-info-right">

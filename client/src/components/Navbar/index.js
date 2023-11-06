@@ -22,12 +22,12 @@ const Navbar = () => {
               <a href="/myfootprint">
                 <li>My Footprint</li>
               </a>
-              <a href="/mypledges">
+              {/* <a href="/mypledges">
                 <li>My Pledges</li>
-              </a>
-              <a href="/donation">
+              </a> */}
+              {/* <a href="/donation">
                 <li>Want To Do More?</li>
-              </a>
+              </a> */}
               <a href="/about">
                 <li>About</li>
               </a>
@@ -46,9 +46,9 @@ const Navbar = () => {
               <a href="/">
                 <li>Home</li>
               </a>
-              <a href="/donation">
+              {/* <a href="/donation">
                 <li>Want To Do More?</li>
-              </a>
+              </a> */}
               <a href="/about">
                 <li>About</li>
               </a>

@@ -1,8 +1,9 @@
 .home-main {
-  background-image: url(../images/left-green-blue.png);
+  /* background-image: url(../images/left-green-blue.png); */
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
+  
   height: 100%;
   background-repeat: no-repeat;
   position: relative;

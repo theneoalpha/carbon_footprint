@@ -249,7 +249,7 @@ const Calculator = () => {
         <main className="calculator-main">
           <h1>Carbon Footprint Calculator</h1>
           <div className="text">
-            {/* <div className="description">
+            <div className="description">
               <div className="calc-h3">
                 Fill out your individual travel and home information and click
                 Find My Footprint.
@@ -265,7 +265,7 @@ const Calculator = () => {
                 contribute to your total carbon footprint, like diet and
                 shopping habits, that are not taken into consideration.
               </p>
-            </div> */}
+            </div>
           </div>
           <section className="slider-sections">
             <form onSubmit={handleSubmit}>
@@ -786,9 +786,9 @@ const Calculator = () => {
                   </Box>
                 </div>
               </div>
-              {/* <div className="calculator-btn">
+              <div className="calculator-btn">
                 <button type="submit">Find My Footprint</button>
-              </div> */}
+              </div>
             </form>
           </section>
         </main>

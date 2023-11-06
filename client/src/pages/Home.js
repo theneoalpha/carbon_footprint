@@ -56,14 +56,14 @@ const Home = () => {
             </p>
             <p className="home-p2">
               <strong>Calculate</strong> your footprint.{' '}
-              <strong>Make a pledge</strong> to change. <strong>Do it</strong>.
-              Mark your pledge <strong>complete</strong>.
+              {/* <strong>Make a pledge</strong> to change. <strong>Do it</strong>.
+              Mark your pledge <strong>complete</strong>. */}
             </p>
-            <div className="home-footer">
+            {/* <div className="home-footer">
               If you want to say thank you for this free service, donate to the
               organizations who are driving real systemic progress in the fight
               against climate change.
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -91,12 +91,11 @@ const Home = () => {
           <h2>Annual Per Capita Carbon Emissions - Metric Tons</h2>
           <br />
           <h4>
-            Global annual per capita carbon emissions from 2020: 4.47 metric
-            tons
+          Annual carbon dioxide (CO₂) emissions worldwide from 1940 to 2022
           </h4>
           <br />
           <a
-            href="https://ourworldindata.org/co2/"
+            href="https://www.statista.com/statistics/276629/global-co2-emissions/"
             rel="noreferrer"
             target="_blank"
           >
@@ -111,7 +110,7 @@ const Home = () => {
           </h2>
           <br />
           <a
-            href="https://www.zerofy.net/2022/04/04/household-co2-emissions.html"
+            href="https://www.indiaspend.com/earthcheck/indias-biggest-spenders-cause-7-times-more-emissions-than-the-poor-715878"
             rel="noreferrer"
             target="_blank"
           >
